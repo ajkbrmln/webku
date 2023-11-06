@@ -1,0 +1,38 @@
+
+---Downloaded files---
+The import files for: Selfer were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/11/demo-content-import-file_2023-11-06__17-08-15.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/11/demo-widgets-import-file_2023-11-06__17-08-15.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/uploads/2023/11/demo-customizer-import-file_2023-11-06__17-08-15.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar Blog : 
+
+Gambar - Ads - Imported
+Kategori - No Title - Imported
+Galeri - Galleries - Imported
+Tag Cloud - Tags - Imported
+
+Sidebar Single : 
+
+Gambar - Ads - Imported
+Kategori - No Title - Imported
+Galeri - Galleries - Imported
+Tag Cloud - Tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

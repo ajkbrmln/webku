@@ -1,0 +1,120 @@
+/* page link pagination */
+.article-content {
+	.page-links {
+		span {
+			border: 1px solid rgba(255, 255, 255, 0.15);
+			font-size: 1em;
+    		padding: 0.4em 0.8em;
+    		font-weight: 600;
+		}
+		> span {
+			color: #fff;
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+}
+/*==================================
+pagination
+================================= */
+.pagination-block {
+	padding: 15px 0;
+	.pagination {
+		margin: 0;
+		margin-bottom: -10px;
+		display: block;
+		li {
+			display: inline-block;
+			a {
+				margin-right: 10px;
+				margin-bottom: 10px;
+				color: #999;
+				background: rgba(52, 58, 64, 0.65);
+				padding: 4px 10px;
+				line-height: 42px;
+				font-size: 0.875rem;
+				font-weight: 500;
+				display: block;
+				min-width: 50px;
+				min-height: 50px;
+				border-radius: 50%;
+				text-align: center;
+				transition: all 0.45s ease-in-out;
+			}
+		}
+		li.active {
+			a {
+				color: $white;
+				box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.14);
+				background: $blue_violet;
+			}
+		}
+		.dot {
+			i {
+				color: $color__gainsboro;
+			}
+		}
+		&.pagination-style-two {
+			margin-top: 30px;
+			margin-bottom: 10px;
+		}
+	}
+	@media only screen and (max-width: 992px) {
+		margin-bottom: 30px;
+	}
+}
+
+.page-numbers.dots {
+	margin-right: 12px;
+}
+
+
+.menu-pagination-block {
+	background: #f9f9f9;
+	overflow: hidden;
+	margin-top: 30px;
+	.pagination-link {
+		padding: 15px;
+		background: transparent;
+		.pagination {
+			text-align: right;
+			@media only screen and (max-width: 992px) {
+				text-align: center;
+			}
+		}
+	}
+}
+.pagination-position {
+	margin-bottom: 0;
+	padding: 20px;
+	@media only screen and (max-width: 992px) {
+		text-align: center;
+	}
+	a {
+		padding: 0 3px;
+		&.active {
+			color: $color__citrus;
+		}
+	}
+	&.orange-theme {
+		a {
+			padding: 0 3px;
+			&.active {
+				color: $color__orange;
+			}
+		}
+	}
+}
+
+.portfolio-pagination a .navigation-text {
+    display: inline-block;
+    border: 2px solid #343a40;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #999;
+    -webkit-transition: all 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
+	margin: 0 5px;
+}

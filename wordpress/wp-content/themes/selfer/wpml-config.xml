@@ -1,0 +1,11 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>
+    <custom-types>
+        <custom-type translate="1">service</custom-type>
+    </custom-types>     
+    <taxonomies>
+        <taxonomy translate="1">portfolio-category</taxonomy> 
+    </taxonomies>   
+</wpml-config>
